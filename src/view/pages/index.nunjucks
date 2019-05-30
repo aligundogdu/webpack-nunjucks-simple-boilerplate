@@ -1,0 +1,13 @@
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <title>Hello, world!</title>
+</head>
+<body>
+
+<script src="assets/js/vendor.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
