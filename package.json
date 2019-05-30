@@ -1,0 +1,46 @@
+{
+  "name": "webpack-nunjucks-simple-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build": "webpack",
+    "build:prod": "webpack --env.production",
+    "dev": "webpack --watch",
+    "dev:prod": "webpack --watch --env.production"
+  },
+  "author": "Ali Gundogdu <ali@projekod.com>",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "autoprefixer": "^9.5.0",
+    "babel-loader": "^8.0.5",
+    "browser-sync": "^2.26.5",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "clean-webpack-plugin": "^2.0.1",
+    "copy-webpack-plugin": "^5.0.2",
+    "css-loader": "^2.1.1",
+    "extra-watch-webpack-plugin": "^1.0.3",
+    "file-loader": "^3.0.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.12.0",
+    "nunjucks": "^3.2.0",
+    "nunjucks-webpack-plugin": "^5.0.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "typescript": "^3.4.1",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.0",
+    "slick-carousel": "^1.6.0",
+    "font-awesome": "^4.7.0"
+  }
+}
