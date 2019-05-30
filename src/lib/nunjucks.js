@@ -14,6 +14,8 @@ templates.forEach((item, index) => {
 });
 
 
+
+
 function getTemplateFiles(dir, allFiles = []) {
     const files = fs.readdirSync(dir).map(f => path.join(dir, f));
     allFiles.push(...files);
