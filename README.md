@@ -39,7 +39,6 @@ npm run build:prod
 
 ## CONTRIBUTING
 
-Contributions are always welcome :like: 
-
+Contributions are always welcome  👍
 
 
