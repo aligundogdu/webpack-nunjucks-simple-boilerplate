@@ -48,7 +48,8 @@ module.exports = env => {
                         {
                             loader: 'url-loader',
                             options: {
-                                limit: 8192
+                                limit: 8192,
+                                name:'/images/[name]-[hash:7].[ext]'
                             }
                         }
                     ]
@@ -86,7 +87,7 @@ module.exports = env => {
             }),
             new CopyWebpackPlugin([
                 // copyUmodified is true because of https://github.com/webpack-contrib/copy-webpack-plugin/pull/360
-                {from: 'assets/**/*', to: '.'}
+                {from: 'images/**/*', to: '.'}
             ], {copyUnmodified: true}),
             new CleanWebpackPlugin()
         ],
