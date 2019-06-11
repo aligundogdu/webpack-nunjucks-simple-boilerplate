@@ -1,6 +1,6 @@
-#Webpack Nunjucks Simple Boilerplate
+# Webpack Nunjucks Simple Boilerplate
 
-##[ENGLISH]
+## [ENGLISH]
 
 **Download :**
 ```
@@ -39,7 +39,6 @@ npm run build:prod
 
 ## CONTRIBUTING
 
-Contributions are always welcome :like: 
-
+Contributions are always welcome  👍
 
 
